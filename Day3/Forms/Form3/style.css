@@ -5,28 +5,51 @@
 }
 
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: pink;
     height:100vh;
     width:100vw;
 }
 
 .container{
-    border:2px solid black;
-    height:400px;
-    width:600px;
+    /* border: 2px solid black; */
+    /* background-color: hotpink; */
+    height: 500px;
+    width: 700px;
+    display: flex;
+    
 }
-.container .row{
-    background-color: brown;
-    border: 2px solid green;
-    width:50%;
+.container > .left-container{
+    background-color: aqua;
     height:100%;
-    /* float:left; */
+    width: 50%;
+    display: flex;
 }
-.container .rrow{
-    background-color: blue;
-    margin-left:50%;
-    flex:50%;
+.container > .left-container > .title{
+    background-color: chartreuse;
+    height: 100% ;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > .left-container > .title > .general{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(107, 39, 171); */
+}
+.container > .left-container > .txt{
+    background-color: red;
+    height: 100% ;
+    width:50%;
+}
+
+.container > .left-container > .txt > .age{
+    display: flex;
+}
+
+.container > .right-container{
+    background-color: rgb(0, 4, 255);
+    height:100%;
+    width: 50%;
 }
