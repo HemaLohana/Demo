@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form">
+        <div class="container">
+            <h1>Update Information</h1>
+            <p>Use the form below to edit your information</p>
+            <div class="fname-container row">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="lname-container row">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+
+            <div class="sport row">
+                <label>Favourite sport:</label>
+                <select name="sport" id="sport">
+                    <option value="basketball">basketball</option>
+                    <option value="football">football</option>
+                    <option value="cricket">cricket</option>
+                    <option value="baseball">baseball</option>
+                    <option value="tennis">tennis</option>
+                </select>
+            </div>
+
+            <div class="gen  row">
+                <label type="text">Gender:</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">female</label>
+                <input type="radio" id="notSure" name="gender" value="notSure">
+                <label for="notSure">not sure</label>
+            </div>
+
+            <div class="state row">
+                <label for="State">State resident:</label>
+                <select name="state" id="state">
+                    <option value="kansas">Kansas</option>
+                    <option value="florida">Florida</option>
+                    <option value="utah">Utah</option>
+                    <option value="washington">Washington</option>
+                </select>
+            </div>
+
+            <div class="age row">
+                <input type="checkbox" id="age" name="age" value="age">
+                <label for="age">21 or older</label>
+            </div>
+
+            <div class="car row">
+                <label type="text">Car models owned:</label>
+                <input type="checkbox" id="veh1" name="veh1" value="ford">
+                <label for="veh1">Ford</label>
+                <input type="checkbox" id="veh2" name="veh2" value="chrysler">
+                <label for="veh2">Chrysler</label>
+                <input type="checkbox" id="veh3" name="veh3" value="toyota">
+                <label for="veh3">Toyota</label>
+                <input type="checkbox" id="veh4" name="veh4" value="nissan">
+                <label for="veh4">Nisaan</label>
+            </div>
+
+            <button type="btn" >Save Changes</button>
+        </div>
+    </form>
+</body>
+
+</html>
