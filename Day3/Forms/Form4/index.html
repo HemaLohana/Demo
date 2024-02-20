@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Travel reservation form</h1>
+        <B>*denotes mandatory</B>
+
+        <div class="fname row">
+            <label for="fname">Full name*:</label><br>
+            <input type="text" placeholder="FirstName LastName" id="fname" name="fname">
+        </div>
+
+        <div class="email row">
+            <label for="email">Email address*:</label><br>
+            <input type="text" placeholder="EMAIL_ADDRESS" id="email" name="email">
+        </div>
+
+        <div class="tour row">
+            <label for="package">Select Tour Package*:</label><br>
+            <select name="tour" id="tour">
+                <option value="Goa">Goa</option>
+                <option value="chennai">chennai</option>
+                <option value="Agra">Agra</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+        </div>
+
+        <div class="arr_dt row">
+            <label for="arr-date">Arrival date*:</label><br>
+            <input type="date" placeholder="m/d/y" id="arr-date" name="arr-date">
+        </div>
+
+        <div class="no-per row">
+            <label for="no-per">Number of persons*:</label><br>
+            <input type="text" placeholder="UNKNOWN_TYPE" id="no-per" name="no-per">
+        </div>
+
+        <div class="want row">
+            <label for="txt">What would you want to avail?*</label><br>
+            <input type="checkbox" id="s1" name="s1" value="s1">
+            <label for="boarding">Boarding</label><br>
+            <input type="checkbox" id="s2" name="s2" value="s2">
+            <label for="fooding">Fooding</label><br>
+            <input type="checkbox" id="s3" name="s3" value="s3">
+            <label for="sight-seeing">Sight seeing</label>
+        </div>
+
+        <div class="code row">
+            <label for="txt">Discount Coupon code:</label><br>
+            <input type="text" placeholder="UNKNOWN_TYPE">
+        </div>
+        
+        <div class="terms row">
+        <label type="text">Terms and conditions*</label><br>
+        <input type="radio" id="agree" name="terms" value="Agree">
+        <label for="agree">I agree</label>
+        <input type="radio" id="disagree" name="terms" value="Disagree">
+        <label for="disagree">I disagree</label>
+    </div>
+         <div class="btn row">
+        <button>Complete reservation</button>
+    </div>
+    </div>
+</body>
+
+</html>
