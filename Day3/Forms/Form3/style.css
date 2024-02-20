@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: pink;
+    /* background-color: pink; */
+    padding: 5%;
     height:100vh;
     width:100vw;
 }
@@ -19,17 +20,20 @@ body{
     
 }
 .container > .left-container{
-    background-color: aqua;
+    /* background-color: aqua; */
     height:100%;
     width: 50%;
     display: flex;
+    gap: 3%;
 }
 .container > .left-container > .title{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 100% ;
-    width:50%;
+    width:40%;
     display: flex;
     flex-direction: column;
+    gap: 3%;
+    line-height: 23px;
 }
 
 .container > .left-container > .title > .general{
@@ -39,17 +43,61 @@ body{
     /* background-color: rgb(107, 39, 171); */
 }
 .container > .left-container > .txt{
-    background-color: red;
+    /* background-color: red; */
     height: 100% ;
-    width:50%;
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
 }
 
 .container > .left-container > .txt > .age{
     display: flex;
+    gap: 2%;
+
 }
 
+.container > .left-container > .txt > .age > :first-child{
+    width: 25%;
+    
+}
+
+.container > .left-container > .txt > .age > :last-child{
+    width: 63%;
+    
+}
 .container > .right-container{
-    background-color: rgb(0, 4, 255);
+    /* background-color: rgb(0, 4, 255); */
     height:100%;
     width: 50%;
+    display: flex;
+}
+input , select{
+    height: 25px;
+}
+
+.container > .right-container > .title{
+    /* background-color:red ; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    gap: 3%;
+}
+
+.container > .right-container > .txt{
+    /* background-color:chartreuse; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    justify-content: flex-start;
+}
+
+#check{
+    background-color: hotpink;
+    width: 15px;
+
 }
