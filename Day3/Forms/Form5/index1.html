@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="left-container">
-            <div class="title">
+            <div class="nm">
                 <label for="name">Name</label>
+            </div>
+            <div class="gen">
                 <label for="sex">Sex</label>
+            </div>
+            <div class="eye">
                 <label for="eye-color">Eye color</label>
+            </div>
+            <div class="check">
                 <label for="check">Check all that apply</label>
             </div>
+
         </div>
         <div class="right-container">
-             <div class="txt">
+            <div class="nm">
                 <input type="text" id="fname" name="fname">
-                
+            </div>
+            <div class="gen">
                 <input type="radio" id="male" name="gender" value="Male">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="Female">
-
                 <label for="female">Female</label>
+            </div>
+
+            <div class="eye">
                 <select name="color" id="color">
                     <option value="green">green</option>
                     <option value="black">black</option>
                     <option value="brown">brown</option>
                 </select>
+            </div>
 
+            <div class="check">
                 <input type="checkbox"  value="over6">
                 <label for="over">Over 6 feet tall</label>
 
                 <input type="checkbox"  value="over200">
                 <label for="over">Over 200 pounds</label>
-             </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
