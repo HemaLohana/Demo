@@ -63,7 +63,7 @@
                 <input type="text" id="nm" name="nm">
                 <input type="text" id="rel" name="rel">
                 <div class="age">
-                <input type="text" id="age" name="age">
+                    <input type="text" id="age" name="age">
                     <input type="date">
                 </div>
                 <select name="gen" id="gen">
@@ -74,7 +74,69 @@
 
             </div>
         </div>
-        <div class="right-container"></div>
+        <div class="right-container">
+            <div class="title">
+                <label>Is Previous Date</label>
+
+                <label for="mode">Mode Of Presentation</label>
+
+                <label for="category">Patient Category*</label>
+
+                <label for="dept">Main Department*</label>
+
+                <label for="sub-dept">Sub Department*</label>
+
+                <label for="doc">Doctor Name*</label>
+
+
+            </div>
+            <div class="txt">
+                <input type="checkbox" id="check">
+
+                <select name="mode" id="mode">
+                    <option value="opd">OPD</option>
+                    <option value="ipd">IPD</option>
+                    <option value="Medical Record Department (MRD) ">MRD</option>
+                    <option value="Inpatient Service(IP)">IP</option>
+                    <option value="Operation Theatre Complex">OT</option>
+                    <option value="Pharmacy Department">PD</option>
+                    <option value="Radiology Department (X-ray)">X-ray</option>
+                </select>
+
+                <select name="category" id="category">
+                    <option value="private">Private</option>
+                    <option value="general">General</option>
+                </select>
+
+
+                <select name="dept" id="dept">
+                    <option value="opd">OPD</option>
+                    <option value="ipd">IPD</option>
+                    <option value="Medical Record Department (MRD) ">MRD</option>
+                    <option value="Inpatient Service(IP)">IP</option>
+                    <option value="Operation Theatre Complex">OT</option>
+                    <option value="Pharmacy Department">PD</option>
+                    <option value="Radiology Department (X-ray)">X-ray</option>
+                </select>
+
+
+                <select name="sdept" id="sdept">
+                    <option value="pl">Please Select</option>
+                    <option value="Pharma/Biotech">Pharma/Biotech</option>
+                    <option value="Health-Tech">Health Tech</option>
+                    <option value="Medical-Device">Medical Device</option>
+                    <option value="Health Consulting">Health Consulting</option>
+                    <option value="Health Finance">Health Finance</option>
+                </select>
+
+
+                <select name="doc" id="doc">
+                    <option value="a.j.patel">A.J.Patel</option>
+                    <option value="p.n.patel">P.N.Patel</option>
+                    <option value="p.a.naik">P.A.Naik</option>
+                </select>
+            </div>
+        </div>
     </div>
 </body>
 
