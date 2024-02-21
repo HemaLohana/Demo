@@ -5,39 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="left-container">
-            <div class="title">
-                <label for="name">Name</label>
-                <label for="sex">Sex</label>
-                <label for="eye-color">Eye color</label>
-                <label for="check">Check all that apply</label>
-            </div>
-        </div>
-        <div class="right-container">
-             <div class="txt">
-                <input type="text" id="fname" name="fname">
-                
-                <input type="radio" id="male" name="gender" value="Male">
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="Female">
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Sex</td>
+            <td><input name="gender" type="radio">Male</td>
+            
+        </tr>
+        <tr>
+            <td><input name="gender" type="radio">Female</td>
+        </tr>
+        <tr>
+            <td>Eye Color</td>
+            <td><select name="color" id="color">
+                <option value="green">green</option>
+                <option value="black">black</option>
+                <option value="brown">brown</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Check all that apply</td>
+            <td><input type="checkbox"  value="over6">
+                <label for="over">Over 6 feet tall</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"  value="over200">
+                <label for="over">Over 200 pounds</label></td>
+        </tr>
+        <tr>
+            <td colspan="2">Describe your athletic ability:</td>
+        </tr>
+        <tr>
+            <div class="box"></div>
+            <td ><input colspan="2" type='text'></td>
+        </tr>
+        <tr>
+            <td>Enter my information</td>
+        </tr>
 
-                <label for="female">Female</label>
-                <select name="color" id="color">
-                    <option value="green">green</option>
-                    <option value="black">black</option>
-                    <option value="brown">brown</option>
-                </select>
-
-                <input type="checkbox"  value="over6">
-                <label for="over">Over 6 feet tall</label>
-
-                <input type="checkbox"  value="over200">
-                <label for="over">Over 200 pounds</label>
-             </div>
-        </div>
-    </div>
+    </table>
+        
 </body>
 </html>
