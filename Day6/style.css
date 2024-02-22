@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: hotpink;
+     height: 100vh;
+     width: 100vw;
+}
+
+.container{
+ background-color: aqua;
+ height: 500px;
+ width: 500px;
+
+}
+
+.box{
+    height: 100%;
+    width: 25%;
+    background-color:blue ;
+    /* gap: 5px; */
+    /* margin: 5px; */
+    /* margin: auto; */
+}
+
+.row1, .row3{
+    height: 25%;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    /* gap: 25%; */
+}
+
+.row2, .row4{
+    height: 25%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* gap: 25%; */
+}
+
+#b2, #b3 , #b4 , #b6 , #b7 , #b8 {
+    margin-left: 25%;
+}
