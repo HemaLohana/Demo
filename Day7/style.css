@@ -1,0 +1,32 @@
+/* #b1{
+    background-color:pink;
+    height:100px;
+    width:100px;
+    margin: 0 0 10px 0;
+    }
+    #b2{
+    background-color:blue;
+    height:100px;
+    width:100px;
+     margin: 20px 0 0 0;
+    } */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        height: 700px;
+        width: 500px;
+        background-color: aqua;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .box{
+        background-color: pink;
+        height: 100px;
+        width: 100px;
+    }
