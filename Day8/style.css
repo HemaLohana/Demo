@@ -2,121 +2,177 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
 }
 
-.container{
-    /* background-color: pink; */
+body{
+ width: 100vh;
+ overflow-X: hidden;
+}
+
+.navbar{
+    height: 70px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 35px;
-    margin-left: 20px;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
 }
 
-.logo{
-    margin-left: 100px;
-    /* margin-top: 50px; */
+ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 50%; 
 }
 
 ul li{
     list-style: none;
-    display: inline-block;
-    gap: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
 }
 
 #buy{
-    background-color: gainsboro;
-    border-radius: 40%;
-    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    padding: 0.3em;
     color: blue;
+    background-color: gainsboro;
 }
 
-li a{
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 50px;
-    text-decoration: none;
-}
-
-.container2{
-    /* width: 100%;
-    height: 100vh; */
-}
-
-.slide{
-    /* width: 100%;
-    height: 100vh; */
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-}
-.page{
-    overflow-x: hidden;
+.section-1{
     position: relative;
-    height: 2000px;
-    width:1500px;
+    /* height: 1000px; */
+    /* background-color: pink; */
+    width: 100vw;
+    height: 862px;
 }
 
-.page > .title{
-    margin: 175px;
-     /* background-color: pink; */
-     font-size: 70px;
-     
-  
+.title{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    font-size: 4em;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    z-index: 1;
+    width: 15ch;
+}
+
+p{
+    position: absolute;
+    top: 400px;
+    font-size: 1.3em;
+    width: 500px;
+    left: 15%;
+    z-index: 1;
+}
+
+.btn-container {
+    position: absolute;
+    top: 560px;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.btn{
+    font-size: 1em;
+    padding: 5% 12%;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn2{
+    color: white;
+    background-color: blue;
+    z-index: 1;
 }
 
 #img2{
-    position: absolute;
-    right: -100px;
-    top:100px;
-    z-index: -1;
+  position:absolute;
+  /* background-color: red; */
+  right: -170px;
+  top:100px;
 }
 
 #img3{
-    position: absolute;
-    right: 550px;
-    top: 100px;
+   position: absolute;
+   top: 230px;
+   right: 500px;
+   z-index: 1;
 }
 
 #img4{
-    position: absolute;
-    right: 100px;
-    top: 200px;
+   position: absolute;
+   right: 0;
+   top: 350px;
+   z-index: 1; 
 }
 
 #img5{
     position: absolute;
-    right: 650px;
-    top: 500px;
+    bottom: 50px; 
+    right: 45%;
+    z-index: 1;
 }
 
-.txt{
-    margin: 170px;
-    font-size: 18px;
+.section-2{
+    /* background-color: blue; */
+    /* height: 100vh; */
+    position: relative;
+    width: 200vw;
+    height: 862px;
+    background-image: url(https://themes.muffingroup.com/be/internet3/wp-content/uploads/2021/01/internet3-section-bg1.jpg);
+    left: -300px;
+}
+
+#img6{
     position: absolute;
-    top: 240px;
+    top: 280px;
+    height: 500px;
+    left: 400px;
+   
 }
 
-.btnn{
-    /* background-color: aqua; */
-    height: 150px;
-    width: 500px;
+#btnn{
+    /* background-color: hotpink; */
+    font-size: 1.2em;
     position: absolute;
-    left: 200px;
-     
+    top: 100px;
+    left: 1000px;
+    color: aliceblue;
+    /* border: 2px solid black; */
+    padding: 5px;
+    border-radius: 50px;
 }
 
-#btn1 , #btn2 {
-    border-radius: 30%;
-    padding: 10px;
-    font-size: 30px;
-    color: blue;
+#para{
+    position: absolute;
+    left: 1000px;
+    top: 170px;
+    width: 300px;
+    color: aliceblue;
+    font-size: 2em;
 }
 
-#btn2{
-    background-color: blue;
-    color: white;
+#para1 {
+    position: absolute;
+    left: 1000px;
+    top: 320px;
+    color: aliceblue;
+    font-size: 1.1em;
+    width: 300px;
 }
 
+#hrr{
+    color: red;
+    background-color: ;
+}
